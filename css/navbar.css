@@ -34,5 +34,7 @@
 }
 
 .nav-list li:hover {
-    background-color: red;
+    background-color: var(--primary-light);
+    color: black;
+    /* background-color: red; */
 }
