@@ -43,4 +43,7 @@
     .navbar{
         justify-content: space-around;
     }
+    .nav-list {
+        display: none;
+    }
 }
