@@ -1,0 +1,17 @@
+@import url('colors.css');
+
+.footer {
+    background-color: var(--success);
+    color: white;
+    padding: 0.5rem;
+    margin-top: auto;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .footer-social-link {
+      color:black;
+      font-size: 1.3rem;
+      margin: 10px 10px;
+  }
+

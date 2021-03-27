@@ -13,51 +13,63 @@
       <ul class="nav-list">
         <li><a href="/">Home</a></li>
         <li><a href="./avatar.html">Documentation</a></li>
+        <li>
+          <a href="https://github.com/chetvishal/PetalCSS"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
       </ul>
     </nav>
     <div class="main-body">
+      <div class="main-body-sidebar">
+        <ul class="sidebar-list">
+          <a href="./avatar.html"><li>Avatar</li></a>
+          <a href="./alert.html"><li>Alert</li></a>
+          <a href="./badge.html"><li>Badge</li></a>
+          <a href="./button.html"><li>Button</li></a>
+          <a href="./card.html"><li>Card</li></a>
+          <a href="./image.html"><li>Image</li></a>
+          <a href="./input.html"><li class="current-item">Input</li></a>
+          <a href="./list.html"><li>Lists</li></a>
+          <a href="./navigation.html"><li>Navigation</li></a>
+          <a href="./modal.html"><li>Modal</li></a>
+          <a href="./rating.html"><li>Rating</li></a>
+          <a href="./grid.html"><li>Grid</li></a>
+          <a href="./text-util.html"><li>Text utilities</li></a>
+          <a href="./toast.html"><li>Toast</li></a>
+        </ul>
+      </div>
+      <div class="main-body-content">
+        <h3 class="heading">Input</h3>
+        <h4 class="sub-heading">1. Simple</h4>
+        <input type="text" placeholder="Search..." class="input-styled" />
 
-        <div class="main-body-sidebar ">
-            <ul class="sidebar-list">
-                <a href="./avatar.html"><li>Avatar</li></a>
-                <a href="./alert.html"><li>Alert</li></a>
-                <a href="./badge.html"><li>Badge</li></a>
-                <a href="./button.html"><li>Button</li></a>
-                <a href="./card.html"><li>Card</li></a>
-                <a href="./image.html"><li>Image</li></a>
-                <a href="./input.html"><li class="current-item">Input</li></a>
-                <a href="./list.html"><li>Lists</li></a>
-                <a href="./navigation.html"><li>Navigation</li></a>
-                <a href="./modal.html"><li>Modal</li></a>
-                <a href="./rating.html"><li>Rating</li></a>
-                <a href="./grid.html"><li>Grid</li></a>
-                <a href="./text-util.html"><li>Text utilities</li></a>
-                <a href="./toast.html"><li>Toast</li></a>
-            </ul>
-        </div>
-        <div class="main-body-content">
-          <h3 class="heading">Input</h3>
-          <h4 class="sub-heading">1. Simple</h4>
-          <input type="text" placeholder="Search..." class="input-styled" />
-
-          <div class="display-code">
-            <pre class="language-markup"><code><!--
+        <div class="display-code">
+          <pre class="language-markup"><code><!--
           <input type="text" placeholder="Search..." class="input-styled" />
             --></code></pre>
-          </div>
+        </div>
 
-          <h4 class="sub-heading">2. Validation</h4>
-          <div class="err-input-container">
-            <input type="text" placeholder="Error" class="input-styled input-err" />
-            <span>Error</span>
-          </div>
-          <div class="err-input-container">
-            <input type="text" placeholder="Required*" class="input-styled input-err" />
-            <span>Required*</span>
-          </div>
+        <h4 class="sub-heading">2. Validation</h4>
+        <div class="err-input-container">
+          <input
+            type="text"
+            placeholder="Error"
+            class="input-styled input-err"
+          />
+          <span>Error</span>
+        </div>
+        <div class="err-input-container">
+          <input
+            type="text"
+            placeholder="Required*"
+            class="input-styled input-err"
+          />
+          <span>Required*</span>
+        </div>
 
-          <div class="display-code">
-            <pre class="language-markup"><code><!--
+        <div class="display-code">
+          <pre class="language-markup"><code><!--
           <div class="err-input-container">
             <input type="text" placeholder="Error" class="input-styled input-err" />
             <span>Error</span>
@@ -68,30 +80,38 @@
             <span>Required*</span>
           </div>
             --></code></pre>
-          </div>
-
-          <div class="action">
-            <button class="btn-float bg-primary doc-float"><i class="fas fa-plus"></i></button>
-            <ul>
-              <a href="./avatar.html"><li>Avatar</li></a>
-              <a href="./alert.html"><li>Alert</li></a>
-              <a href="./badge.html"><li>Badge</li></a>
-              <a href="./button.html"><li>Button</li></a>
-              <a href="./card.html"><li>Card</li></a>
-              <a href="./image.html"><li>Image</li></a>
-              <a href="./input.html"><li class="current-item">Input</li></a>
-              <a href="./list.html"><li>Lists</li></a>
-              <a href="./navigation.html"><li>Navigation</li></a>
-              <a href="./modal.html"><li>Modal</li></a>
-              <a href="./rating.html"><li>Rating</li></a>
-              <a href="./grid.html"><li>Grid</li></a>
-              <a href="./text-util.html"><li>Text utilities</li></a>
-              <a href="./toast.html"><li>Toast</li></a>
-            </ul>
-          </div>
-
         </div>
-        <!-- JAVASCRIPT -->
+
+        <div class="action">
+          <button class="btn-float bg-primary doc-float">
+            <i class="fas fa-plus"></i>
+          </button>
+          <ul>
+            <a href="./avatar.html"><li>Avatar</li></a>
+            <a href="./alert.html"><li>Alert</li></a>
+            <a href="./badge.html"><li>Badge</li></a>
+            <a href="./button.html"><li>Button</li></a>
+            <a href="./card.html"><li>Card</li></a>
+            <a href="./image.html"><li>Image</li></a>
+            <a href="./input.html"><li class="current-item">Input</li></a>
+            <a href="./list.html"><li>Lists</li></a>
+            <a href="./navigation.html"><li>Navigation</li></a>
+            <a href="./modal.html"><li>Modal</li></a>
+            <a href="./rating.html"><li>Rating</li></a>
+            <a href="./grid.html"><li>Grid</li></a>
+            <a href="./text-util.html"><li>Text utilities</li></a>
+            <a href="./toast.html"><li>Toast</li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h3>Made by Chet Vishal Tunju</h3>
+      <span class="footer-social-link"><a href="https://github.com/chetvishal" class="nostyle"><i class="fab fa-github"></i></a></span>
+      <span class="footer-social-link"><a href="https://www.linkedin.com/in/chet-vishal-tunju-1056b7123/" class="nostyle"><i class="fab fa-linkedin-in"></i></a></span>
+      <span class="footer-social-link"><a href="https://twitter.com/chetvishal" class="nostyle"><i class="fab fa-twitter"></i></a></span>
+    </footer>
+    <!-- JAVASCRIPT -->
     <script src="../prism.js"></script>
     <script src="../script.js"></script>
     <script

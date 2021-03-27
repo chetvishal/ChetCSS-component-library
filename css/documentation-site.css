@@ -4,10 +4,22 @@
   margin: 0;
 }
 
+/* html {
+  height: 100%;
+} */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .main-body {
   display: grid;
   grid-template-columns: 20% 80%;
 }
+
+
 
 .main-body-sidebar {
   padding: 1rem;
